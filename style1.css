@@ -26,3 +26,31 @@ ul {
   .active {
     background-color: rgb(228, 47, 77);
   }
+  .container {
+    position: relative;
+    max-width: auto;
+    margin: 0 auto;
+    
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: inherit;
+    bottom: 50px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+    color: #0c0b0c;
+    width: 100%;
+    padding: 50px;
+    font-size: 30px;
+    text-align:center ;
+  }
+  footer {
+    background-color: rgb(228, 47, 77);
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font: size 40px; ;
+  }
+  
