@@ -26,31 +26,16 @@ ul {
   .active {
     background-color: rgb(228, 47, 77);
   }
-  .container {
-    position: relative;
-    max-width: auto;
-    margin: 0 auto;
+   video {
+    widows: 100%;;
+    height: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    margin-bottom: 80%;
+    margin-top: 50px;
     
   }
-  
-  .container img {vertical-align: middle;}
-  
-  .container .content {
-    position: inherit;
-    bottom: 50px;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
-    color: #0c0b0c;
-    width: 100%;
-    padding: 50px;
-    font-size: 30px;
-    text-align:center ;
-  }
-
-  .button1 {
-    border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block;
-    font-size: 16px; margin: 4px 2px; cursor: pointer; background-color: #4CAF50;    } 
-  
   footer {
     background-color: rgb(228, 47, 77);
     padding: 30px;
@@ -58,4 +43,3 @@ ul {
     color: white;
     font: size 40px; ;
   }
-  

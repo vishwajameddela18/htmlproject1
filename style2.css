@@ -3,9 +3,11 @@ body {
 }
 
 h1 {
+  
   background-color:rgb(228, 47, 77); padding: 30px;
    color: white ; 
    text-align: center; 
+  
 }
 ul {
   list-style-type: none;       margin: 0px; padding: 0px; overflow: hidden; background-color: #333; font-size: 15px;
